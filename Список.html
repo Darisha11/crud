@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <button class = "buttonAdd1">Добавить студента</button>
+    <table class="table1" id="tableName">
+        <tbody id="table">
+        <tr class="tr1">
+            <th class="th11">Студент</th>
+            <th class="th11">Группа</th>
+            <th class="th11">Дата рождения</th>
+            <th class="th11">Номер телефона</th>
+            <th class="th11">Удалить</th>
+            <th class="th11">Изменить</th>
+        </tr>
+        </tbody>
+        <!--<tr>
+            <td>Матюшанова Дарина</td>
+            <td>ЦПИ-11</td>
+            <td>10.01.2004</td>
+            <td>89535117969</td>
+            <td><button  class="buttond"  name="button">Удалить</button></td>
+            <td><button  class="subEdit"  name="button">Изменить</button></td>
+        </tr>
+        <tr>
+            <td>Сальникова Екатерина</td>
+            <td>ЦПИ-11</td>
+            <td>27.05.2003</td>
+            <td>89536284529</td>
+            <td><button class="buttond" name="button">Удалить</button></td>
+            <td><button  class="subEdit"  name="button">Изменить</button></td>
+        </tr>
+        <tr>
+            <td>Сорокина Анна</td>
+            <td>ЦИС-17</td>
+            <td>14.03.2004</td>
+            <td>89004397625</td>
+            <td><button class="buttond" name="button">Удалить</button></td>
+            <td><button  class="subEdit"  name="button">Изменить</button></td>
+        </tr>-->
+    </table>
+    <button class = "buttonAdd1">Добавить студента</button>
+    <div id="windowAdd" class="windowAdd1" style="display: none">
+        <h3>Добавить студента</h3>
+        <div class="close1"></div>
+        <form id="addForm">
+            <table class="table2">
+                <tr class="tr2">
+                    <td class="name">ФИО</td>
+                    <td><input type="text" class="name" name="name" placeholder="Введите ФИО"></td>
+                </tr>
+                <tr class="tr2">
+                    <td class="group">Группа</td>
+                    <td><input type="text" class="group" name="group"placeholder="Введите группу"></td>
+                </tr>
+                <tr class="tr2">
+                    <td class="birth">Дата рождения</td>
+                    <td><input type="text" class="birth" name="birth" placeholder="Введите дату"></td>
+                </tr>
+                <tr class="tr2">
+                    <td class="phone">Номер телефона</td>
+                    <td><input type="text" class="phone" name="phone" placeholder="Введите номер"></td>
+                </tr>
+            </table>
+        </form>
+        <button type="submit" class = "buttonAdd1" id="subAdd">Добавить студента</button>
+    </div>
+    <div id="windowChange" class="windowAdd1 windowChange" style="display: none">
+        <h3>Добавить ученика</h3>
+        <div class="close1"></div>
+        <form id="changeForm">
+            <table class="table2">
+                <tr class="tr2">
+                    <td class="name">ФИО</td>
+                    <td><input type="text" class="name" name="name" placeholder="Введите ФИО"></td>
+                </tr>
+                <tr class="tr2">
+                    <td class="group">Группа</td>
+                    <td><input type="text" class="group" name="group" placeholder="Введите группу"></td>
+                </tr>
+                <tr class="tr2">
+                    <td class="birth">Дата рождения</td>
+                    <td><input type="text" class="birth" name="birth" placeholder="Введите дату"></td>
+                </tr>
+                <tr class="tr2">
+                    <td class="phone">Номер телефона</td>
+                    <td><input type="text" class="phone" name="phone" placeholder="Введите номер"></td>
+                </tr>
+            </table>
+        </form>
+        <button type="submit" class = "subEdit" id="subChange">Изменить студента</button>
+    </div>
+    <div id = "windowDel" class="windowDel" style="display: none">
+        <h2>Вы действительно хотите удалить?</h2>
+        <div class="close"></div>
+        <button class="buttond" id="subDel">Удалить</button>
+    </div>
+    <script src="table1.js"></script>
+</body>
+</html>

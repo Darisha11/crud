@@ -1,0 +1,116 @@
+.windowAdd1 {
+    border: 1px solid rosybrown;
+    background: peachpuff;
+    width:320px;
+    height:250px;
+    position: absolute;
+    padding:10px;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.close1 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
+.close1:hover {
+    opacity: 1;
+}
+.close1:before, .close1:after {
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    content: ' ';
+    height: 25px;
+    width: 2px;
+    background-color: rosybrown;
+}
+.close1:before {
+    transform: rotate(45deg);
+}
+.close1:after {
+    transform: rotate(-45deg);
+}
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    content: ' ';
+    height: 25px;
+    width: 2px;
+    background-color: rosybrown;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.windowDel {
+    border: 1px solid rosybrown;
+    background: peachpuff;
+    width:600px;
+    height:100px;
+    position: absolute;
+    margin: auto;
+    padding:10px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+.table1 {
+    border: 2px solid rosybrown;
+    width:60%;
+    margin: 0 auto;
+    background: peachpuff;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+    text-align: center
+}
+th {
+    border: 2px solid rosybrown;
+    border-radius: 10px;
+    background-color: rosybrown;
+}
+td {
+    border: 2px solid rosybrown;
+    border-radius: 10px;
+}
+.table2 {
+    border: 2px solid rosybrown;
+}
+.td1 {
+    border: 0px
+}
+html,body {
+    background: lightgoldenrodyellow;
+}
+.buttonAdd1 {
+    position: relative;
+    left: 46%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button2 {
+    margin: 0 auto;
+}
